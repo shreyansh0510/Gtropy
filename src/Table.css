@@ -1,0 +1,51 @@
+.table_stats tr:nth-of-type(odd) {
+  background-color: #f3f2f8;
+}
+
+.table_heading tr {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  color: rgb(228, 148, 0);
+}
+
+.table_heading td {
+  border: none;
+  margin-right: 40px;
+}
+
+.table_stats {
+  margin-top: 20px;
+  overflow-y: scroll;
+  background-color: white;
+  height: 290px;
+}
+
+.table_stats tr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.table_stats td {
+  padding: 0.5rem;
+  border: none;
+  width: 5rem;
+  font-weight: 600;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

@@ -1,0 +1,27 @@
+.app_right_confirmed {
+  color: rgba(255, 0, 0, 0.89);
+  text-shadow: 0 1px 1px rgba(175, 175, 175, 0.979);
+}
+
+.app_right_active {
+  color: rgba(0, 129, 204, 0.822);
+  text-shadow: 0 1px 1px rgba(175, 175, 175, 0.979);
+}
+
+.app_right_recovered {
+  color: rgb(0, 190, 0);
+  text-shadow: 0 1px 1px rgba(175, 175, 175, 0.979);
+}
+
+.app_right_deceased {
+  color: gray;
+  text-shadow: 0 1px 1px rgba(175, 175, 175, 0.979);
+}
+
+#id_title {
+  font-weight: 700;
+}
+
+#id_cases {
+  font-weight: 700;
+}
